@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "Gabriel de Siqueira",
+        "email": "rm555888",
+        "senha": "senha123",
+        "imagem": "joao_silva.png"
+    },
+    {
+        "id": 2,
+        "nome": "Gabriel de Siqueira",
+        "email": "rm555888",
+        "senha": "senha123",
+        "imagem": "joao_silva.png"
+    },
+    {
+        "id": 3,
+        "nome": "Gabriel de Siqueira",
+        "email": "rm555888",
+        "senha": "senha123",
+        "imagem": "joao_silva.png"
+    }
+]

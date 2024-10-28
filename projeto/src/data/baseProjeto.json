@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "imagem": "https://example.com/imagem1.jpg",
+      "nome": "Projeto Alpha",
+      "tipo": "Check Point",
+      "nota": 9.5,
+      "descricao": "Projeto de desenvolvimento web utilizando React.",
+      "integrantes": ["Alice", "Bob", "Charlie"]
+    },
+    {
+      "id": 2,
+      "imagem": "https://example.com/imagem2.jpg",
+      "nome": "Projeto Beta",
+      "tipo": "Check Point",
+      "nota": 8.7,
+      "descricao": "Aplicativo mobile desenvolvido em Flutter.",
+      "integrantes": ["Dave", "Eve", "Frank"]
+    },
+    {
+      "id": 3,
+      "imagem": "https://example.com/imagem3.jpg",
+      "nome": "Projeto Gamma",
+      "tipo": "Check Point",
+      "nota": 9.2,
+      "descricao": "Análise de dados utilizando Python e Pandas.",
+      "integrantes": ["Grace", "Heidi", "Ivan"]
+    },
+    {
+      "id": 4,
+      "imagem": "https://example.com/imagem4.jpg",
+      "nome": "Projeto Delta",
+      "tipo": "Check Point",
+      "nota": 8.9,
+      "descricao": "Projeto de Internet das Coisas com Arduino.",
+      "integrantes": ["Judy", "Karl", "Leo"]
+    },
+    {
+      "id": 5,
+      "imagem": "https://example.com/imagem5.jpg",
+      "nome": "Projeto Epsilon",
+      "tipo": "Check Point",
+      "nota": 9.8,
+      "descricao": "Desenvolvimento de um modelo de Machine Learning.",
+      "integrantes": ["Mallory", "Niaj", "Olivia"]
+    },
+    {
+      "id": 6,
+      "imagem": "https://example.com/imagem6.jpg",
+      "nome": "Projeto Zeta",
+      "tipo": "Check Point",
+      "nota": 8.5,
+      "descricao": "Implementação de um sistema de blockchain.",
+      "integrantes": ["Peggy", "Quentin", "Ruth"]
+    },
+    {
+      "id": 7,
+      "imagem": "https://example.com/imagem7.jpg",
+      "nome": "Projeto Eta",
+      "tipo": "Game",
+      "nota": 9.0,
+      "descricao": "Desenvolvimento de um jogo 2D em Unity.",
+      "integrantes": ["Sybil", "Trent", "Uma"]
+    },
+    {
+      "id": 8,
+      "imagem": "https://example.com/imagem8.jpg",
+      "nome": "Projeto Theta",
+      "tipo": "VR",
+      "nota": 9.3,
+      "descricao": "Projeto de realidade virtual com Oculus Rift.",
+      "integrantes": ["Victor", "Wendy", "Xander"]
+    },
+    {
+      "id": 9,
+      "imagem": "https://example.com/imagem9.jpg",
+      "nome": "Projeto Iota",
+      "tipo": "AR",
+      "nota": 8.6,
+      "descricao": "Aplicativo de realidade aumentada.",
+      "integrantes": ["Yvonne", "Zach", "Amy"]
+    },
+    {
+      "id": 10,
+      "imagem": "https://example.com/imagem10.jpg",
+      "nome": "Projeto Kappa",
+      "tipo": "Cloud",
+      "nota": 9.4,
+      "descricao": "Projeto de computação em nuvem com AWS.",
+      "integrantes": ["Brian", "Cathy", "Derek"]
+    }
+  ]
