@@ -12,7 +12,7 @@ export default function Sprints() {
     const [materiaSelecionada, setMateriaSelecionada] = useState<string>("");
 
     const consumoApi = async () => {
-        const response = await fetch("http://localhost:3000/api/base-projetos");
+        const response = await fetch("https://ideatec.vercel.app/api/base-projetos");
         const dados = await response.json();
         setProjetos(dados);
         const Sprintsrojects = dados.filter((projeto: TipoProjeto) => projeto.tipo === "Challenger Sprints");
@@ -44,7 +44,7 @@ export default function Sprints() {
 
     return (
         <><section className="h-screen sec-cp-1">
-            <iframe src="https://lottie.host/embed/cc87944b-f2c7-486c-b14c-e7ac11e7828f/PwGjd8UG31.json" />
+            <iframe src="https://lottie.host/embed/cc87944b-f2c7-486c-b14c-e7ac11e7828f/PwGjd8UG31.json" className="w-[100%]"/>
             <div className="mx-8 lg:mx-16 w-[70%] -mt-24 rounded-xl bg-white dark:bg-zinc-900 p-5 md:p-14 shadow-md  translate-y-[-150px]">
                 <div>
                     <h1 className="text-4xl pb-5 dark:text-white">

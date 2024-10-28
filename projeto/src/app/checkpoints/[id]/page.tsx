@@ -19,7 +19,7 @@ const CheckpointID = ({ params }: { params: Params }) => {
     const consumoApi = async () => {
       if (params.id) {
         try {
-          const response = await fetch(`http://localhost:3000/api/base-projetos/${params.id}`);
+          const response = await fetch(`https://ideatec.vercel.app/api/base-projetos/${params.id}`);
           if (!response.ok) {
             throw new Error('Erro ao buscar o projeto');
           }
@@ -43,7 +43,7 @@ const CheckpointID = ({ params }: { params: Params }) => {
   return (
     <>
       <section className="h-screen sec-cp-1 ">
-        <iframe src="https://lottie.host/embed/cc87944b-f2c7-486c-b14c-e7ac11e7828f/PwGjd8UG31.json" />
+        <iframe src="https://lottie.host/embed/cc87944b-f2c7-486c-b14c-e7ac11e7828f/PwGjd8UG31.json" className="w-[100%]"/>
         <div className="mx-8 lg:mx-16 w-[50%] -mt-24 rounded-xl bg-white dark:bg-zinc-900 p-5 md:p-14 shadow-md  translate-y-[-150px]">
           <div className="w-full grid grid-cols-2">
             <div className="">

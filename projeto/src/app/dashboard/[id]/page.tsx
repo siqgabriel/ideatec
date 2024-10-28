@@ -56,7 +56,7 @@ export default function Dashboard({ params }: { params: { id: string } }) {
 
         const consumoApiProjeto = async () => {
             try {
-                const response = await fetch('http://localhost:3000/api/base-projetos');
+                const response = await fetch('https://ideatec.vercel.app/api/base-projetos');
                 if (!response.ok) {
                     throw new Error('Erro ao buscar os projetos');
                 }
@@ -70,7 +70,7 @@ export default function Dashboard({ params }: { params: { id: string } }) {
         const consumoApiUsuario = async () => {
             if (params.id) {
                 try {
-                    const response = await fetch(`http://localhost:3000/api/base-usuarios/${params.id}`);
+                    const response = await fetch(`https://ideatec.vercel.app/api/base-usuarios/${params.id}`);
                     if (!response.ok) {
                         throw new Error('Erro ao buscar o usuário');
                     }
